@@ -20,6 +20,9 @@ shopt -s histappend
 # After each command, append to the history file and reread it
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
+# stri .exe extension from command after autocompletion
+shopt -s completion_strip_exe
+
 # aliases
 alias la='ls -ahl'
 alias ll='ls -hl'
