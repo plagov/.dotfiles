@@ -1,12 +1,16 @@
 set nocompatible    " disable backwards compatibility with vi
 syntax on
 syntax enable
-set number		" set row numbers on the left
 set matchpairs+=<:>	" moving between two matching characters using % key. Defaults: (..), {..}, [..]
 set cursorline
 
 " sets on bottom right corner an indicator of pointer location - row number and character number within selected line. Also shows a percentage.
 set ruler	
+
+" line numbers
+set number
+set relativenumber
+set numberwidth=2
 
 " number of lines between cursor and top/bottom of the page
 set scrolloff=3
@@ -22,6 +26,7 @@ set background=dark
 set incsearch		" starts searching while typing
 set hlsearch		" hiighlight search results
 set ignorecase		" ignores case of search results
+set smartcase       " search with uppercase
 nnoremap <C-l> :nohlsearch<CR><C-l>	"Ctrl-l to clear search result highlights
 
 " turn off highlighting when in insert mode
