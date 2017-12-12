@@ -2,7 +2,6 @@ set nocompatible    " disable backwards compatibility with vi
 syntax on
 syntax enable
 set matchpairs+=<:>	" moving between two matching characters using % key. Defaults: (..), {..}, [..]
-set cursorline
 
 " sets on bottom right corner an indicator of pointer location - row number and character number within selected line. Also shows a percentage.
 set ruler	
