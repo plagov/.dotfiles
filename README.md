@@ -1,4 +1,4 @@
-# Cheat sheet
+# Cheat sheet!
 Short list of useful commands
 ## tmux
 | Command                 | Description| 
