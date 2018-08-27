@@ -1,10 +1,16 @@
 # Cheat sheet
+
 Short list of useful commands
+
 ## tmux
-| Command                 | Description| 
-| ------------------------|------------| 
+
+| Command                 | Description|
+| ------------------------|------------|
 | `setw synchronize-panes`|Sycronize input on all panes in current window|
+|`<prefix> + z`|Zoom current pane. Makes it easier to copy text from this pane. Use the same shortcut to exit zoom|
+
 ## vim
+
 |Command        |Description|
 |---------------|-----------|
 |`:%s/foo/bar/g`|Find each occurrence of 'foo' (in all lines), and replace it with 'bar'|
@@ -15,8 +21,10 @@ Short list of useful commands
 |`<CTRL-V>{motion}r{char}`|Changes every character of block to {char}|
 |`yas, yap`|Copy entire sentence, paragraph the cursor is inside|
 |`ya{`|Copy entire block of text inside block delimeters - {}, (), [], <>, \"", ''. ``|
+
 ## git
-| Command               | Description| 
-| ----------------------|------------| 
+
+| Command               | Description|
+| ----------------------|------------|
 | `git remote -v update`|Check if local branches are up to date with remote branches|
 |`git status -uno`      |Check if local branch is ahead or behind. Should be run after above command|
