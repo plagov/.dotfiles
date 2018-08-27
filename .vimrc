@@ -50,3 +50,6 @@ set undodir=$HOME/.vim/undo
 
 " yank to system clipboard
 set clipboard=unnamed
+
+" set a width for a git message body to 72 characters
+au FileType gitcommit set tw=72
