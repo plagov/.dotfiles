@@ -53,3 +53,6 @@ set clipboard=unnamed
 
 " set a width for a git message body to 72 characters
 au FileType gitcommit set tw=72
+
+"shortcut to force save of a file that should have been opened with sudo
+cnoremap w!! execute 'silent! write !sudo tee % >/dev/null' <bar> edit!

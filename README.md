@@ -13,6 +13,7 @@ Short list of useful commands
 
 |Command        |Description|
 |---------------|-----------|
+|`w!!`          |Force save the file that should have been opened with sudo. Type shortcut quickly. See explanation [here](https://dev.to/jovica/the-vim-trick-which-will-save-your-time-and-nerves-45pg)
 |`:%s/foo/bar/g`|Find each occurrence of 'foo' (in all lines), and replace it with 'bar'|
 |`caw`          |Change the entire word even if pointer is not at the start of the word|
 |`<CTRL-V>{motion}I{text}`|Insert {text} before block on every line|
